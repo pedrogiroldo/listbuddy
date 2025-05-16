@@ -1,0 +1,23 @@
+[project]
+name = "listbuddy"
+version = "1.0.0"
+description = "Your AI assistant to give feedbacks of programming exercises lists. Simple, effecient, smart and cool, just like AI should be."
+authors = [
+    {name = "Pedro Andrade Giroldo",email = "pedrogiroldo40@gmail.com"},
+    {name = "André Rodrigues",email = "andreichihashi1@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = "<3.14, >= 3.13"
+dependencies = [
+    "openai (>=1.78.1,<2.0.0)",
+    "pyinstaller (>=6.13.0,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
