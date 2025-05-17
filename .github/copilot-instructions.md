@@ -7,7 +7,7 @@ This project is a Programming Exercise Correction Assistant that uses Python, Py
 ## Core Technologies
 
 - **Python 3.9+**: Primary programming language
-- **PySimpleGUI**: Used for creating the desktop GUI application
+- **DearPyGUI**: Used for creating the desktop GUI application
 - **OpenAI API**: Leveraged for AI-powered code review and feedback generation
 - **JSON**: Used for storing configuration and exercise templates
 
@@ -24,4 +24,4 @@ This project is a Programming Exercise Correction Assistant that uses Python, Py
 ## API Documentation References
 
 - [OpenAI API Documentation](https://platform.openai.com/docs/api-reference)
-- [PySimpleGUI Documentation](https://pysimplegui.readthedocs.io/)
+- [DearPyGUI Documentation](https://dearpygui.readthedocs.io/en/latest/index.html)
