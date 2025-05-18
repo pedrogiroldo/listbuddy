@@ -12,7 +12,7 @@ requires-python = "<3.14, >= 3.13"
 dependencies = [
     "openai (>=1.78.1,<2.0.0)",
     "pyinstaller (>=6.13.0,<7.0.0)",
-    "pysimplegui (>=5.0.8.3,<6.0.0.0)"
+    "dearpygui (>=2.0.0,<3.0.0)",
 ]
 
 
@@ -22,3 +22,6 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 package-mode = false
+
+[tool.poetry.requires-plugins]
+poetry-plugin-export = ">=1.8"
