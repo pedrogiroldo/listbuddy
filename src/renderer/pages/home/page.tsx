@@ -1,10 +1,9 @@
-import { Button } from '../../components/ui/button';
-
 export default function HomePage() {
   return (
     <div>
-      <p>hiii</p>
-      <Button>Olá</Button>
+      <p className="text-2xl">
+        Welcome to the Electron + React + TypeScript + TailwindCSS template!!!!
+      </p>
     </div>
   );
 }
